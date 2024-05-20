@@ -38,34 +38,35 @@
             pictureBox3 = new PictureBox();
             label5 = new Label();
             label4 = new Label();
-            textBox3 = new TextBox();
+            textBox_id_estudante = new TextBox();
             label3 = new Label();
-            comboBox1 = new ComboBox();
-            comboBox2 = new ComboBox();
+            comboBox_meses = new ComboBox();
+            comboBox_ano = new ComboBox();
             label6 = new Label();
             label7 = new Label();
-            textBox1 = new TextBox();
+            textBox_valor = new TextBox();
             label8 = new Label();
-            textBox4 = new TextBox();
-            button3 = new Button();
-            dataGridView1 = new DataGridView();
+            textBox_data_de_pagamento = new TextBox();
+            button_gerar_recibo = new Button();
+            dataGridView_historico = new DataGridView();
             panel3 = new Panel();
             label11 = new Label();
-            textBox2 = new TextBox();
+            textBox_id_propina = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_historico).BeginInit();
             panel3.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(693, 12);
+            pictureBox2.Location = new Point(1126, 19);
+            pictureBox2.Margin = new Padding(5, 5, 5, 5);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(52, 47);
+            pictureBox2.Size = new Size(84, 75);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
@@ -78,16 +79,18 @@
             panel2.Controls.Add(pictureBox2);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(5, 5, 5, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(776, 73);
+            panel2.Size = new Size(1261, 117);
             panel2.TabIndex = 9;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(44, 12);
+            pictureBox1.Location = new Point(72, 19);
+            pictureBox1.Margin = new Padding(5, 5, 5, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(65, 47);
+            pictureBox1.Size = new Size(106, 75);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
@@ -95,39 +98,43 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Rounded MT Bold", 13F);
+            label1.Font = new Font("Microsoft Sans Serif", 13F);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(129, 33);
+            label1.Location = new Point(210, 53);
+            label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(108, 26);
+            label1.Size = new Size(154, 39);
             label1.TabIndex = 10;
             label1.Text = "Propinas";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial Rounded MT Bold", 13F);
+            label2.Font = new Font("Microsoft Sans Serif", 13F);
             label2.ForeColor = Color.FromArgb(0, 64, 64);
-            label2.Location = new Point(130, 160);
+            label2.Location = new Point(211, 256);
+            label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
-            label2.Size = new Size(240, 26);
+            label2.Size = new Size(350, 39);
             label2.TabIndex = 94;
             label2.Text = "Dados do Pagamento";
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.ControlDarkDark;
-            panel1.Location = new Point(44, 200);
+            panel1.Location = new Point(72, 320);
+            panel1.Margin = new Padding(5, 5, 5, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(692, 2);
+            panel1.Size = new Size(1124, 3);
             panel1.TabIndex = 95;
             // 
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(44, 134);
+            pictureBox3.Location = new Point(72, 214);
+            pictureBox3.Margin = new Padding(5, 5, 5, 5);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(80, 66);
+            pictureBox3.Size = new Size(130, 106);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 93;
             pictureBox3.TabStop = false;
@@ -135,196 +142,210 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Arial Rounded MT Bold", 12F);
+            label5.Font = new Font("Microsoft Sans Serif", 12F);
             label5.ForeColor = Color.FromArgb(0, 64, 64);
-            label5.Location = new Point(496, 226);
+            label5.Location = new Point(806, 362);
+            label5.Margin = new Padding(5, 0, 5, 0);
             label5.Name = "label5";
-            label5.Size = new Size(73, 23);
+            label5.Size = new Size(109, 37);
             label5.TabIndex = 101;
             label5.Text = "Meses";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Arial Rounded MT Bold", 12F);
+            label4.Font = new Font("Microsoft Sans Serif", 12F);
             label4.ForeColor = Color.FromArgb(0, 64, 64);
-            label4.Location = new Point(235, 223);
+            label4.Location = new Point(382, 357);
+            label4.Margin = new Padding(5, 0, 5, 0);
             label4.Name = "label4";
-            label4.Size = new Size(135, 23);
+            label4.Size = new Size(201, 37);
             label4.TabIndex = 99;
             label4.Text = "ID Estudante";
             // 
-            // textBox3
+            // textBox_id_estudante
             // 
-            textBox3.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(235, 264);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(199, 31);
-            textBox3.TabIndex = 98;
+            textBox_id_estudante.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_id_estudante.Location = new Point(382, 422);
+            textBox_id_estudante.Margin = new Padding(5, 5, 5, 5);
+            textBox_id_estudante.Name = "textBox_id_estudante";
+            textBox_id_estudante.Size = new Size(321, 45);
+            textBox_id_estudante.TabIndex = 98;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Arial Rounded MT Bold", 12F);
+            label3.Font = new Font("Microsoft Sans Serif", 12F);
             label3.ForeColor = Color.FromArgb(0, 64, 64);
-            label3.Location = new Point(44, 223);
+            label3.Location = new Point(72, 357);
+            label3.Margin = new Padding(5, 0, 5, 0);
             label3.Name = "label3";
-            label3.Size = new Size(112, 23);
+            label3.Size = new Size(168, 37);
             label3.TabIndex = 97;
             label3.Text = "ID Propina";
             // 
-            // comboBox1
+            // comboBox_meses
             // 
-            comboBox1.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(496, 264);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(231, 34);
-            comboBox1.TabIndex = 102;
+            comboBox_meses.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox_meses.FormattingEnabled = true;
+            comboBox_meses.Location = new Point(806, 422);
+            comboBox_meses.Margin = new Padding(5, 5, 5, 5);
+            comboBox_meses.Name = "comboBox_meses";
+            comboBox_meses.Size = new Size(373, 48);
+            comboBox_meses.TabIndex = 102;
             // 
-            // comboBox2
+            // comboBox_ano
             // 
-            comboBox2.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(42, 357);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(163, 34);
-            comboBox2.TabIndex = 104;
+            comboBox_ano.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox_ano.FormattingEnabled = true;
+            comboBox_ano.Location = new Point(68, 571);
+            comboBox_ano.Margin = new Padding(5, 5, 5, 5);
+            comboBox_ano.Name = "comboBox_ano";
+            comboBox_ano.Size = new Size(262, 48);
+            comboBox_ano.TabIndex = 104;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Arial Rounded MT Bold", 12F);
+            label6.Font = new Font("Microsoft Sans Serif", 12F);
             label6.ForeColor = Color.FromArgb(0, 64, 64);
-            label6.Location = new Point(42, 319);
+            label6.Location = new Point(68, 510);
+            label6.Margin = new Padding(5, 0, 5, 0);
             label6.Name = "label6";
-            label6.Size = new Size(48, 23);
+            label6.Size = new Size(75, 37);
             label6.TabIndex = 103;
             label6.Text = "Ano";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Arial Rounded MT Bold", 12F);
+            label7.Font = new Font("Microsoft Sans Serif", 12F);
             label7.ForeColor = Color.FromArgb(0, 64, 64);
-            label7.Location = new Point(240, 319);
+            label7.Location = new Point(390, 510);
+            label7.Margin = new Padding(5, 0, 5, 0);
             label7.Name = "label7";
-            label7.Size = new Size(62, 23);
+            label7.Size = new Size(93, 37);
             label7.TabIndex = 106;
             label7.Text = "Valor";
-            
             // 
-            // textBox1
+            // textBox_valor
             // 
-            textBox1.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(240, 360);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(194, 31);
-            textBox1.TabIndex = 105;
-            textBox1.TextChanged += textBox1_TextChanged;
+            textBox_valor.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_valor.Location = new Point(390, 576);
+            textBox_valor.Margin = new Padding(5, 5, 5, 5);
+            textBox_valor.Name = "textBox_valor";
+            textBox_valor.Size = new Size(313, 45);
+            textBox_valor.TabIndex = 105;
+            textBox_valor.TextChanged += textBox1_TextChanged;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("Arial Rounded MT Bold", 12F);
+            label8.Font = new Font("Microsoft Sans Serif", 12F);
             label8.ForeColor = Color.FromArgb(0, 64, 64);
-            label8.Location = new Point(496, 329);
+            label8.Location = new Point(806, 526);
+            label8.Margin = new Padding(5, 0, 5, 0);
             label8.Name = "label8";
-            label8.Size = new Size(202, 23);
+            label8.Size = new Size(302, 37);
             label8.TabIndex = 108;
             label8.Text = "Data de Pagamento";
-           
             // 
-            // textBox4
+            // textBox_data_de_pagamento
             // 
-            textBox4.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(496, 370);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(231, 31);
-            textBox4.TabIndex = 107;
-           
+            textBox_data_de_pagamento.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_data_de_pagamento.Location = new Point(806, 592);
+            textBox_data_de_pagamento.Margin = new Padding(5, 5, 5, 5);
+            textBox_data_de_pagamento.Name = "textBox_data_de_pagamento";
+            textBox_data_de_pagamento.Size = new Size(373, 45);
+            textBox_data_de_pagamento.TabIndex = 107;
             // 
-            // button3
+            // button_gerar_recibo
             // 
-            button3.BackColor = Color.FromArgb(0, 43, 35);
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Arial Rounded MT Bold", 12F);
-            button3.ForeColor = SystemColors.ControlLightLight;
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(44, 430);
-            button3.Name = "button3";
-            button3.Padding = new Padding(20, 0, 0, 0);
-            button3.Size = new Size(193, 43);
-            button3.TabIndex = 109;
-            button3.Text = "Gerar Recibo";
-            button3.TextAlign = ContentAlignment.MiddleLeft;
-            button3.UseVisualStyleBackColor = false;
+            button_gerar_recibo.BackColor = Color.FromArgb(0, 43, 35);
+            button_gerar_recibo.FlatAppearance.BorderSize = 0;
+            button_gerar_recibo.FlatStyle = FlatStyle.Flat;
+            button_gerar_recibo.Font = new Font("Microsoft Sans Serif", 12F);
+            button_gerar_recibo.ForeColor = SystemColors.ControlLightLight;
+            button_gerar_recibo.ImageAlign = ContentAlignment.MiddleLeft;
+            button_gerar_recibo.Location = new Point(72, 688);
+            button_gerar_recibo.Margin = new Padding(5, 5, 5, 5);
+            button_gerar_recibo.Name = "button_gerar_recibo";
+            button_gerar_recibo.Padding = new Padding(32, 0, 0, 0);
+            button_gerar_recibo.Size = new Size(314, 69);
+            button_gerar_recibo.TabIndex = 109;
+            button_gerar_recibo.Text = "Gerar Recibo";
+            button_gerar_recibo.TextAlign = ContentAlignment.MiddleLeft;
+            button_gerar_recibo.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dataGridView_historico
             // 
-            dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(44, 584);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(683, 225);
-            dataGridView1.TabIndex = 112;
+            dataGridView_historico.BackgroundColor = SystemColors.ControlLightLight;
+            dataGridView_historico.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView_historico.Location = new Point(72, 934);
+            dataGridView_historico.Margin = new Padding(5, 5, 5, 5);
+            dataGridView_historico.Name = "dataGridView_historico";
+            dataGridView_historico.RowHeadersWidth = 51;
+            dataGridView_historico.Size = new Size(1110, 360);
+            dataGridView_historico.TabIndex = 112;
             // 
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(0, 43, 35);
             panel3.Controls.Add(label11);
-            panel3.Location = new Point(42, 514);
+            panel3.Location = new Point(68, 822);
+            panel3.Margin = new Padding(5, 5, 5, 5);
             panel3.Name = "panel3";
-            panel3.Size = new Size(685, 64);
+            panel3.Size = new Size(1113, 102);
             panel3.TabIndex = 111;
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Font = new Font("Arial Rounded MT Bold", 14F);
+            label11.Font = new Font("Microsoft Sans Serif", 14F);
             label11.ForeColor = Color.MintCream;
-            label11.Location = new Point(22, 20);
+            label11.Location = new Point(36, 32);
+            label11.Margin = new Padding(5, 0, 5, 0);
             label11.Name = "label11";
-            label11.Size = new Size(118, 28);
+            label11.Size = new Size(168, 44);
             label11.TabIndex = 35;
             label11.Text = "Histórico";
             // 
-            // textBox2
+            // textBox_id_propina
             // 
-            textBox2.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(44, 264);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(161, 31);
-            textBox2.TabIndex = 113;
+            textBox_id_propina.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_id_propina.Location = new Point(72, 422);
+            textBox_id_propina.Margin = new Padding(5, 5, 5, 5);
+            textBox_id_propina.Name = "textBox_id_propina";
+            textBox_id_propina.Size = new Size(259, 45);
+            textBox_id_propina.TabIndex = 113;
             // 
             // PagamentoPropina
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
-            ClientSize = new Size(776, 821);
-            Controls.Add(textBox2);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(1261, 1314);
+            Controls.Add(textBox_id_propina);
+            Controls.Add(dataGridView_historico);
             Controls.Add(panel3);
-            Controls.Add(button3);
+            Controls.Add(button_gerar_recibo);
             Controls.Add(label8);
-            Controls.Add(textBox4);
+            Controls.Add(textBox_data_de_pagamento);
             Controls.Add(label7);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox2);
+            Controls.Add(textBox_valor);
+            Controls.Add(comboBox_ano);
             Controls.Add(label6);
-            Controls.Add(comboBox1);
+            Controls.Add(comboBox_meses);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(textBox3);
+            Controls.Add(textBox_id_estudante);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(panel1);
             Controls.Add(pictureBox3);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(5, 5, 5, 5);
             Name = "PagamentoPropina";
             Text = "PagamentoPropina";
             Load += PagamentoPropina_Load;
@@ -333,7 +354,7 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView_historico).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ResumeLayout(false);
@@ -351,19 +372,19 @@
         private PictureBox pictureBox3;
         private Label label5;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox textBox_id_estudante;
         private Label label3;
-        private ComboBox comboBox1;
-        private ComboBox comboBox2;
+        private ComboBox comboBox_meses;
+        private ComboBox comboBox_ano;
         private Label label6;
         private Label label7;
-        private TextBox textBox1;
+        private TextBox textBox_valor;
         private Label label8;
-        private TextBox textBox4;
-        private Button button3;
-        private DataGridView dataGridView1;
+        private TextBox textBox_data_de_pagamento;
+        private Button button_gerar_recibo;
+        private DataGridView dataGridView_historico;
         private Panel panel3;
         private Label label11;
-        private TextBox textBox2;
+        private TextBox textBox_id_propina;
     }
 }

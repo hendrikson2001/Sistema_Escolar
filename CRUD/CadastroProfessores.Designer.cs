@@ -34,30 +34,30 @@
             label1 = new Label();
             pictureBox2 = new PictureBox();
             label12 = new Label();
-            textBox8 = new TextBox();
+            textBox_salario = new TextBox();
             label10 = new Label();
             pictureBox4 = new PictureBox();
-            textBox1 = new TextBox();
+            textBox_pesquisar = new TextBox();
             dataGridView1 = new DataGridView();
-            comboBox1 = new ComboBox();
+            comboBox_departamento = new ComboBox();
             label9 = new Label();
             label8 = new Label();
-            textBox7 = new TextBox();
+            textBox_email = new TextBox();
             label7 = new Label();
-            textBox6 = new TextBox();
+            textBox_telefone = new TextBox();
             label6 = new Label();
-            textBox5 = new TextBox();
+            textBox_endereco = new TextBox();
             label5 = new Label();
             textBox_data_de_nascimento = new TextBox();
             label4 = new Label();
             textBox_nome_completo = new TextBox();
             label3 = new Label();
             textBox_id = new TextBox();
-            button3 = new Button();
-            button2 = new Button();
+            button_atualizar = new Button();
+            button_remover = new Button();
             panel3 = new Panel();
             label11 = new Label();
-            button1 = new Button();
+            button_cadastro = new Button();
             label2 = new Label();
             panel1 = new Panel();
             pictureBox3 = new PictureBox();
@@ -129,14 +129,14 @@
             label12.TabIndex = 91;
             label12.Text = "Salário";
             // 
-            // textBox8
+            // textBox_salario
             // 
-            textBox8.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox8.Location = new Point(94, 685);
-            textBox8.Margin = new Padding(5, 5, 5, 5);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(417, 45);
-            textBox8.TabIndex = 90;
+            textBox_salario.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_salario.Location = new Point(94, 685);
+            textBox_salario.Margin = new Padding(5, 5, 5, 5);
+            textBox_salario.Name = "textBox_salario";
+            textBox_salario.Size = new Size(417, 45);
+            textBox_salario.TabIndex = 90;
             // 
             // label10
             // 
@@ -161,14 +161,14 @@
             pictureBox4.TabIndex = 87;
             pictureBox4.TabStop = false;
             // 
-            // textBox1
+            // textBox_pesquisar
             // 
-            textBox1.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(1154, 189);
-            textBox1.Margin = new Padding(5, 5, 5, 5);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(555, 45);
-            textBox1.TabIndex = 89;
+            textBox_pesquisar.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_pesquisar.Location = new Point(1154, 189);
+            textBox_pesquisar.Margin = new Padding(5, 5, 5, 5);
+            textBox_pesquisar.Name = "textBox_pesquisar";
+            textBox_pesquisar.Size = new Size(555, 45);
+            textBox_pesquisar.TabIndex = 89;
             // 
             // dataGridView1
             // 
@@ -181,15 +181,15 @@
             dataGridView1.Size = new Size(1731, 378);
             dataGridView1.TabIndex = 86;
             // 
-            // comboBox1
+            // comboBox_departamento
             // 
-            comboBox1.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(1302, 530);
-            comboBox1.Margin = new Padding(5, 5, 5, 5);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(513, 48);
-            comboBox1.TabIndex = 85;
+            comboBox_departamento.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox_departamento.FormattingEnabled = true;
+            comboBox_departamento.Location = new Point(1302, 530);
+            comboBox_departamento.Margin = new Padding(5, 5, 5, 5);
+            comboBox_departamento.Name = "comboBox_departamento";
+            comboBox_departamento.Size = new Size(513, 48);
+            comboBox_departamento.TabIndex = 85;
             // 
             // label9
             // 
@@ -215,14 +215,14 @@
             label8.TabIndex = 83;
             label8.Text = "Email";
             // 
-            // textBox7
+            // textBox_email
             // 
-            textBox7.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox7.Location = new Point(583, 534);
-            textBox7.Margin = new Padding(5, 5, 5, 5);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(680, 45);
-            textBox7.TabIndex = 82;
+            textBox_email.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_email.Location = new Point(583, 534);
+            textBox_email.Margin = new Padding(5, 5, 5, 5);
+            textBox_email.Name = "textBox_email";
+            textBox_email.Size = new Size(680, 45);
+            textBox_email.TabIndex = 82;
             // 
             // label7
             // 
@@ -236,14 +236,14 @@
             label7.TabIndex = 81;
             label7.Text = "Telefone";
             // 
-            // textBox6
+            // textBox_telefone
             // 
-            textBox6.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox6.Location = new Point(94, 534);
-            textBox6.Margin = new Padding(5, 5, 5, 5);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(417, 45);
-            textBox6.TabIndex = 80;
+            textBox_telefone.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_telefone.Location = new Point(94, 534);
+            textBox_telefone.Margin = new Padding(5, 5, 5, 5);
+            textBox_telefone.Name = "textBox_telefone";
+            textBox_telefone.Size = new Size(417, 45);
+            textBox_telefone.TabIndex = 80;
             // 
             // label6
             // 
@@ -257,14 +257,14 @@
             label6.TabIndex = 79;
             label6.Text = "Endereço";
             // 
-            // textBox5
+            // textBox_endereco
             // 
-            textBox5.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox5.Location = new Point(1302, 381);
-            textBox5.Margin = new Padding(5, 5, 5, 5);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(513, 45);
-            textBox5.TabIndex = 78;
+            textBox_endereco.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox_endereco.Location = new Point(1302, 381);
+            textBox_endereco.Margin = new Padding(5, 5, 5, 5);
+            textBox_endereco.Name = "textBox_endereco";
+            textBox_endereco.Size = new Size(513, 45);
+            textBox_endereco.TabIndex = 78;
             // 
             // label5
             // 
@@ -329,41 +329,41 @@
             textBox_id.Size = new Size(178, 45);
             textBox_id.TabIndex = 72;
             // 
-            // button3
+            // button_atualizar
             // 
-            button3.BackColor = Color.FromArgb(0, 64, 64);
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Microsoft Sans Serif", 12F);
-            button3.ForeColor = SystemColors.ControlLightLight;
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(1589, 666);
-            button3.Margin = new Padding(5, 5, 5, 5);
-            button3.Name = "button3";
-            button3.Padding = new Padding(32, 0, 0, 0);
-            button3.Size = new Size(228, 69);
-            button3.TabIndex = 71;
-            button3.Text = "Atualizar";
-            button3.TextAlign = ContentAlignment.MiddleLeft;
-            button3.UseVisualStyleBackColor = false;
+            button_atualizar.BackColor = Color.FromArgb(0, 64, 64);
+            button_atualizar.FlatAppearance.BorderSize = 0;
+            button_atualizar.FlatStyle = FlatStyle.Flat;
+            button_atualizar.Font = new Font("Microsoft Sans Serif", 12F);
+            button_atualizar.ForeColor = SystemColors.ControlLightLight;
+            button_atualizar.ImageAlign = ContentAlignment.MiddleLeft;
+            button_atualizar.Location = new Point(1589, 666);
+            button_atualizar.Margin = new Padding(5, 5, 5, 5);
+            button_atualizar.Name = "button_atualizar";
+            button_atualizar.Padding = new Padding(32, 0, 0, 0);
+            button_atualizar.Size = new Size(228, 69);
+            button_atualizar.TabIndex = 71;
+            button_atualizar.Text = "Atualizar";
+            button_atualizar.TextAlign = ContentAlignment.MiddleLeft;
+            button_atualizar.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // button_remover
             // 
-            button2.BackColor = Color.FromArgb(192, 0, 0);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Microsoft Sans Serif", 12F);
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(1316, 666);
-            button2.Margin = new Padding(5, 5, 5, 5);
-            button2.Name = "button2";
-            button2.Padding = new Padding(32, 0, 0, 0);
-            button2.Size = new Size(232, 69);
-            button2.TabIndex = 70;
-            button2.Text = "Remover";
-            button2.TextAlign = ContentAlignment.MiddleLeft;
-            button2.UseVisualStyleBackColor = false;
+            button_remover.BackColor = Color.FromArgb(192, 0, 0);
+            button_remover.FlatAppearance.BorderSize = 0;
+            button_remover.FlatStyle = FlatStyle.Flat;
+            button_remover.Font = new Font("Microsoft Sans Serif", 12F);
+            button_remover.ForeColor = SystemColors.ControlLightLight;
+            button_remover.ImageAlign = ContentAlignment.MiddleLeft;
+            button_remover.Location = new Point(1316, 666);
+            button_remover.Margin = new Padding(5, 5, 5, 5);
+            button_remover.Name = "button_remover";
+            button_remover.Padding = new Padding(32, 0, 0, 0);
+            button_remover.Size = new Size(232, 69);
+            button_remover.TabIndex = 70;
+            button_remover.Text = "Remover";
+            button_remover.TextAlign = ContentAlignment.MiddleLeft;
+            button_remover.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -387,23 +387,23 @@
             label11.TabIndex = 35;
             label11.Text = "Lista de Professores\r\n";
             // 
-            // button1
+            // button_cadastro
             // 
-            button1.BackColor = Color.Green;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Microsoft Sans Serif", 12F);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(1025, 666);
-            button1.Margin = new Padding(5, 5, 5, 5);
-            button1.Name = "button1";
-            button1.Padding = new Padding(32, 0, 0, 0);
-            button1.Size = new Size(240, 69);
-            button1.TabIndex = 68;
-            button1.Text = "Cadastrar ";
-            button1.TextAlign = ContentAlignment.MiddleLeft;
-            button1.UseVisualStyleBackColor = false;
+            button_cadastro.BackColor = Color.Green;
+            button_cadastro.FlatAppearance.BorderSize = 0;
+            button_cadastro.FlatStyle = FlatStyle.Flat;
+            button_cadastro.Font = new Font("Microsoft Sans Serif", 12F);
+            button_cadastro.ForeColor = SystemColors.ControlLightLight;
+            button_cadastro.ImageAlign = ContentAlignment.MiddleLeft;
+            button_cadastro.Location = new Point(1025, 666);
+            button_cadastro.Margin = new Padding(5, 5, 5, 5);
+            button_cadastro.Name = "button_cadastro";
+            button_cadastro.Padding = new Padding(32, 0, 0, 0);
+            button_cadastro.Size = new Size(240, 69);
+            button_cadastro.TabIndex = 68;
+            button_cadastro.Text = "Cadastrar ";
+            button_cadastro.TextAlign = ContentAlignment.MiddleLeft;
+            button_cadastro.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -444,29 +444,29 @@
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(1914, 1296);
             Controls.Add(label12);
-            Controls.Add(textBox8);
+            Controls.Add(textBox_salario);
             Controls.Add(label10);
             Controls.Add(pictureBox4);
-            Controls.Add(textBox1);
+            Controls.Add(textBox_pesquisar);
             Controls.Add(dataGridView1);
-            Controls.Add(comboBox1);
+            Controls.Add(comboBox_departamento);
             Controls.Add(label9);
             Controls.Add(label8);
-            Controls.Add(textBox7);
+            Controls.Add(textBox_email);
             Controls.Add(label7);
-            Controls.Add(textBox6);
+            Controls.Add(textBox_telefone);
             Controls.Add(label6);
-            Controls.Add(textBox5);
+            Controls.Add(textBox_endereco);
             Controls.Add(label5);
             Controls.Add(textBox_data_de_nascimento);
             Controls.Add(label4);
             Controls.Add(textBox_nome_completo);
             Controls.Add(label3);
             Controls.Add(textBox_id);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(button_atualizar);
+            Controls.Add(button_remover);
             Controls.Add(panel3);
-            Controls.Add(button1);
+            Controls.Add(button_cadastro);
             Controls.Add(label2);
             Controls.Add(panel1);
             Controls.Add(pictureBox3);
@@ -495,30 +495,30 @@
         private Label label1;
         private PictureBox pictureBox2;
         private Label label12;
-        private TextBox textBox8;
+        private TextBox textBox_salario;
         private Label label10;
         private PictureBox pictureBox4;
-        private TextBox textBox1;
+        private TextBox textBox_pesquisar;
         private DataGridView dataGridView1;
-        private ComboBox comboBox1;
+        private ComboBox comboBox_departamento;
         private Label label9;
         private Label label8;
-        private TextBox textBox7;
+        private TextBox textBox_email;
         private Label label7;
-        private TextBox textBox6;
+        private TextBox textBox_telefone;
         private Label label6;
-        private TextBox textBox5;
+        private TextBox textBox_endereco;
         private Label label5;
         private TextBox textBox_data_de_nascimento;
         private Label label4;
         private TextBox textBox_nome_completo;
         private Label label3;
         private TextBox textBox_id;
-        private Button button3;
-        private Button button2;
+        private Button button_atualizar;
+        private Button button_remover;
         private Panel panel3;
         private Label label11;
-        private Button button1;
+        private Button button_cadastro;
         private Label label2;
         private Panel panel1;
         private PictureBox pictureBox3;

@@ -34,26 +34,27 @@
             label2 = new Label();
             pictureBox6 = new PictureBox();
             pictureBox4 = new PictureBox();
-            pictureBox10 = new PictureBox();
-            pictureBox7 = new PictureBox();
-            pictureBox8 = new PictureBox();
-            pictureBox3 = new PictureBox();
+            pictureBox_cadastrar_funcionario = new PictureBox();
+            pictureBox_cadastrar_turma = new PictureBox();
+            pictureBox_cadastrar_professor = new PictureBox();
+            pictureBox_dashboard = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_cadastrar_funcionario).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_cadastrar_turma).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_cadastrar_professor).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_dashboard).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.ico;
-            pictureBox1.Location = new Point(32, 12);
+            pictureBox1.Location = new Point(52, 19);
+            pictureBox1.Margin = new Padding(5, 5, 5, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(74, 61);
+            pictureBox1.Size = new Size(120, 98);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -65,27 +66,30 @@
             panel2.Controls.Add(pictureBox1);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(5, 5, 5, 5);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1769, 84);
+            panel2.Size = new Size(2564, 134);
             panel2.TabIndex = 3;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Arial Rounded MT Bold", 14F);
+            label2.Font = new Font("Microsoft Sans Serif", 14F);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(125, 32);
+            label2.Location = new Point(203, 51);
+            label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
-            label2.Size = new Size(469, 28);
+            label2.Size = new Size(683, 44);
             label2.TabIndex = 6;
             label2.Text = "Instituto Superior Tecnológico Pembele";
             // 
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(1054, 436);
+            pictureBox6.Location = new Point(1713, 698);
+            pictureBox6.Margin = new Padding(5, 5, 5, 5);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(191, 163);
+            pictureBox6.Size = new Size(310, 261);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 14;
             pictureBox6.TabStop = false;
@@ -93,66 +97,72 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(1054, 189);
+            pictureBox4.Location = new Point(1713, 302);
+            pictureBox4.Margin = new Padding(5, 5, 5, 5);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(191, 163);
+            pictureBox4.Size = new Size(310, 261);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 12;
             pictureBox4.TabStop = false;
             // 
-            // pictureBox10
+            // pictureBox_cadastrar_funcionario
             // 
-            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(718, 189);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(191, 163);
-            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox10.TabIndex = 17;
-            pictureBox10.TabStop = false;
+            pictureBox_cadastrar_funcionario.Image = (Image)resources.GetObject("pictureBox_cadastrar_funcionario.Image");
+            pictureBox_cadastrar_funcionario.Location = new Point(1167, 302);
+            pictureBox_cadastrar_funcionario.Margin = new Padding(5, 5, 5, 5);
+            pictureBox_cadastrar_funcionario.Name = "pictureBox_cadastrar_funcionario";
+            pictureBox_cadastrar_funcionario.Size = new Size(310, 261);
+            pictureBox_cadastrar_funcionario.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_cadastrar_funcionario.TabIndex = 17;
+            pictureBox_cadastrar_funcionario.TabStop = false;
             // 
-            // pictureBox7
+            // pictureBox_cadastrar_turma
             // 
-            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(718, 446);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(191, 163);
-            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox7.TabIndex = 15;
-            pictureBox7.TabStop = false;
+            pictureBox_cadastrar_turma.Image = (Image)resources.GetObject("pictureBox_cadastrar_turma.Image");
+            pictureBox_cadastrar_turma.Location = new Point(1167, 714);
+            pictureBox_cadastrar_turma.Margin = new Padding(5, 5, 5, 5);
+            pictureBox_cadastrar_turma.Name = "pictureBox_cadastrar_turma";
+            pictureBox_cadastrar_turma.Size = new Size(310, 261);
+            pictureBox_cadastrar_turma.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_cadastrar_turma.TabIndex = 15;
+            pictureBox_cadastrar_turma.TabStop = false;
             // 
-            // pictureBox8
+            // pictureBox_cadastrar_professor
             // 
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(403, 446);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(191, 163);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 16;
-            pictureBox8.TabStop = false;
+            pictureBox_cadastrar_professor.Image = (Image)resources.GetObject("pictureBox_cadastrar_professor.Image");
+            pictureBox_cadastrar_professor.Location = new Point(655, 714);
+            pictureBox_cadastrar_professor.Margin = new Padding(5, 5, 5, 5);
+            pictureBox_cadastrar_professor.Name = "pictureBox_cadastrar_professor";
+            pictureBox_cadastrar_professor.Size = new Size(310, 261);
+            pictureBox_cadastrar_professor.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_cadastrar_professor.TabIndex = 16;
+            pictureBox_cadastrar_professor.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBox_dashboard
             // 
-            pictureBox3.Image = Properties.Resources.Icones_02;
-            pictureBox3.Location = new Point(403, 189);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(191, 163);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 5;
-            pictureBox3.TabStop = false;
+            pictureBox_dashboard.Image = Properties.Resources.Icones_02;
+            pictureBox_dashboard.Location = new Point(655, 302);
+            pictureBox_dashboard.Margin = new Padding(5, 5, 5, 5);
+            pictureBox_dashboard.Name = "pictureBox_dashboard";
+            pictureBox_dashboard.Size = new Size(310, 261);
+            pictureBox_dashboard.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox_dashboard.TabIndex = 5;
+            pictureBox_dashboard.TabStop = false;
             // 
             // Inicio
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
-            ClientSize = new Size(1769, 779);
-            Controls.Add(pictureBox10);
-            Controls.Add(pictureBox8);
-            Controls.Add(pictureBox7);
+            ClientSize = new Size(2564, 1246);
+            Controls.Add(pictureBox_cadastrar_funcionario);
+            Controls.Add(pictureBox_cadastrar_professor);
+            Controls.Add(pictureBox_cadastrar_turma);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox4);
-            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox_dashboard);
             Controls.Add(panel2);
+            Margin = new Padding(5, 5, 5, 5);
             Name = "Inicio";
             Text = "Início";
             WindowState = FormWindowState.Maximized;
@@ -161,10 +171,10 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_cadastrar_funcionario).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_cadastrar_turma).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_cadastrar_professor).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_dashboard).EndInit();
             ResumeLayout(false);
         }
 
@@ -174,9 +184,9 @@
         private Label label2;
         private PictureBox pictureBox6;
         private PictureBox pictureBox4;
-        private PictureBox pictureBox10;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox8;
-        private PictureBox pictureBox3;
+        private PictureBox pictureBox_cadastrar_funcionario;
+        private PictureBox pictureBox_cadastrar_turma;
+        private PictureBox pictureBox_cadastrar_professor;
+        private PictureBox pictureBox_dashboard;
     }
 }
