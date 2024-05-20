@@ -48,7 +48,6 @@
             label13 = new Label();
             textBox11 = new TextBox();
             label9 = new Label();
-            textBox10 = new TextBox();
             label6 = new Label();
             textBox5 = new TextBox();
             label14 = new Label();
@@ -65,6 +64,7 @@
             button1 = new Button();
             groupBox3 = new GroupBox();
             groupBox4 = new GroupBox();
+            comboBox1 = new ComboBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -288,14 +288,6 @@
             label9.TabIndex = 70;
             label9.Text = "Lincenciatura";
             // 
-            // textBox10
-            // 
-            textBox10.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox10.Location = new Point(24, 72);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(258, 31);
-            textBox10.TabIndex = 69;
-            // 
             // label6
             // 
             label6.AutoSize = true;
@@ -461,15 +453,24 @@
             // 
             // groupBox4
             // 
+            groupBox4.Controls.Add(comboBox1);
             groupBox4.Controls.Add(label9);
-            groupBox4.Controls.Add(textBox10);
             groupBox4.Location = new Point(39, 492);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(1021, 130);
+            groupBox4.Size = new Size(1021, 146);
             groupBox4.TabIndex = 75;
             groupBox4.TabStop = false;
             groupBox4.Text = "Acadêmico";
             groupBox4.Enter += groupBox4_Enter;
+            // 
+            // comboBox1
+            // 
+            comboBox1.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(24, 83);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(264, 34);
+            comboBox1.TabIndex = 71;
             // 
             // CadastroEstudantes
             // 
@@ -524,7 +525,6 @@
         private Label label14;
         private TextBox textBox9;
         private Label label9;
-        private TextBox textBox10;
         private Label label6;
         private TextBox textBox5;
         private Label label15;
@@ -536,5 +536,6 @@
         private TextBox textBox13;
         private GroupBox groupBox3;
         private GroupBox groupBox4;
+        private ComboBox comboBox1;
     }
 }

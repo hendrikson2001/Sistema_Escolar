@@ -21,5 +21,15 @@ namespace CRUD
         {
 
         }
+
+        private void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CadastroTurmas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
