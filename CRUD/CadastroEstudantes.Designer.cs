@@ -62,7 +62,6 @@
             label7 = new Label();
             textBox6 = new TextBox();
             button3 = new Button();
-            button2 = new Button();
             button1 = new Button();
             groupBox3 = new GroupBox();
             groupBox4 = new GroupBox();
@@ -84,7 +83,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1209, 73);
+            panel2.Size = new Size(1190, 73);
             panel2.TabIndex = 5;
             // 
             // pictureBox1
@@ -93,7 +92,7 @@
             pictureBox1.Location = new Point(44, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(65, 47);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
@@ -124,7 +123,6 @@
             groupBox1.Controls.Add(groupBox3);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(groupBox2);
-            groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button3);
             groupBox1.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox1.ForeColor = SystemColors.ControlDarkDark;
@@ -156,7 +154,7 @@
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(textBox5);
             groupBox2.Controls.Add(label8);
-            groupBox2.ForeColor = Color.FromArgb(0, 64, 0);
+            groupBox2.ForeColor = Color.FromArgb(64, 64, 64);
             groupBox2.Location = new Point(39, 48);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(1021, 275);
@@ -429,23 +427,6 @@
             button3.TextAlign = ContentAlignment.MiddleLeft;
             button3.UseVisualStyleBackColor = false;
             // 
-            // button2
-            // 
-            button2.BackColor = Color.FromArgb(192, 0, 0);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Arial Rounded MT Bold", 12F);
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(752, 644);
-            button2.Name = "button2";
-            button2.Padding = new Padding(20, 0, 0, 0);
-            button2.Size = new Size(143, 43);
-            button2.TabIndex = 43;
-            button2.Text = "Remover";
-            button2.TextAlign = ContentAlignment.MiddleLeft;
-            button2.UseVisualStyleBackColor = false;
-            // 
             // button1
             // 
             button1.BackColor = Color.Green;
@@ -454,7 +435,7 @@
             button1.Font = new Font("Arial Rounded MT Bold", 12F);
             button1.ForeColor = SystemColors.ControlLightLight;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(573, 644);
+            button1.Location = new Point(751, 644);
             button1.Name = "button1";
             button1.Padding = new Padding(20, 0, 0, 0);
             button1.Size = new Size(148, 43);
@@ -495,7 +476,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
-            ClientSize = new Size(1209, 861);
+            ClientSize = new Size(1190, 861);
             Controls.Add(groupBox1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.None;
@@ -533,7 +514,6 @@
         private Label label4;
         private TextBox textBox3;
         private Button button3;
-        private Button button2;
         private Button button1;
         private Label label2;
         private TextBox textBox1;
