@@ -33,11 +33,6 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pictureBox2 = new PictureBox();
-            panel3 = new Panel();
-            label12 = new Label();
-            comboBox2 = new ComboBox();
-            label11 = new Label();
-            pictureBox4 = new PictureBox();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
             textBox3 = new TextBox();
@@ -74,8 +69,6 @@
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -91,7 +84,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1530, 73);
+            panel2.Size = new Size(1209, 73);
             panel2.TabIndex = 5;
             // 
             // pictureBox1
@@ -118,77 +111,26 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(1444, 12);
+            pictureBox2.Location = new Point(1104, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(52, 47);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
             // 
-            // panel3
-            // 
-            panel3.BackColor = Color.White;
-            panel3.Controls.Add(label12);
-            panel3.Controls.Add(comboBox2);
-            panel3.Controls.Add(label11);
-            panel3.Controls.Add(pictureBox4);
-            panel3.Location = new Point(95, 929);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(1065, 64);
-            panel3.TabIndex = 15;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Arial Rounded MT Bold", 12F);
-            label12.ForeColor = Color.FromArgb(0, 64, 64);
-            label12.Location = new Point(513, 20);
-            label12.Name = "label12";
-            label12.Size = new Size(119, 23);
-            label12.TabIndex = 37;
-            label12.Text = "Buscar por";
-            // 
-            // comboBox2
-            // 
-            comboBox2.Font = new Font("Trebuchet MS", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(638, 14);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(317, 34);
-            comboBox2.TabIndex = 37;
-            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Arial Rounded MT Bold", 14F);
-            label11.ForeColor = Color.FromArgb(0, 43, 35);
-            label11.Location = new Point(38, 17);
-            label11.Name = "label11";
-            label11.Size = new Size(238, 28);
-            label11.TabIndex = 35;
-            label11.Text = "Lista de Estudantes";
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(972, 14);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(53, 34);
-            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox4.TabIndex = 35;
-            pictureBox4.TabStop = false;
-            // 
             // groupBox1
             // 
             groupBox1.Controls.Add(groupBox4);
             groupBox1.Controls.Add(groupBox3);
+            groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(groupBox2);
+            groupBox1.Controls.Add(button2);
+            groupBox1.Controls.Add(button3);
             groupBox1.Font = new Font("Arial Rounded MT Bold", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox1.ForeColor = SystemColors.ControlDarkDark;
             groupBox1.Location = new Point(56, 117);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1421, 713);
+            groupBox1.Size = new Size(1100, 713);
             groupBox1.TabIndex = 35;
             groupBox1.TabStop = false;
             groupBox1.Text = "Cadastro de Estudante";
@@ -342,7 +284,7 @@
             label9.AutoSize = true;
             label9.Font = new Font("Arial Rounded MT Bold", 12F);
             label9.ForeColor = Color.FromArgb(0, 64, 64);
-            label9.Location = new Point(24, 51);
+            label9.Location = new Point(24, 46);
             label9.Name = "label9";
             label9.Size = new Size(144, 23);
             label9.TabIndex = 70;
@@ -351,7 +293,7 @@
             // textBox10
             // 
             textBox10.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox10.Location = new Point(24, 77);
+            textBox10.Location = new Point(24, 72);
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(258, 31);
             textBox10.TabIndex = 69;
@@ -478,7 +420,7 @@
             button3.Font = new Font("Arial Rounded MT Bold", 12F);
             button3.ForeColor = SystemColors.ControlLightLight;
             button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(1171, 865);
+            button3.Location = new Point(920, 644);
             button3.Name = "button3";
             button3.Padding = new Padding(20, 0, 0, 0);
             button3.Size = new Size(140, 43);
@@ -495,7 +437,7 @@
             button2.Font = new Font("Arial Rounded MT Bold", 12F);
             button2.ForeColor = SystemColors.ControlLightLight;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(1003, 865);
+            button2.Location = new Point(752, 644);
             button2.Name = "button2";
             button2.Padding = new Padding(20, 0, 0, 0);
             button2.Size = new Size(143, 43);
@@ -512,7 +454,7 @@
             button1.Font = new Font("Arial Rounded MT Bold", 12F);
             button1.ForeColor = SystemColors.ControlLightLight;
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(824, 865);
+            button1.Location = new Point(573, 644);
             button1.Name = "button1";
             button1.Padding = new Padding(20, 0, 0, 0);
             button1.Size = new Size(148, 43);
@@ -529,9 +471,9 @@
             groupBox3.Controls.Add(textBox12);
             groupBox3.Controls.Add(label13);
             groupBox3.Controls.Add(textBox11);
-            groupBox3.Location = new Point(55, 370);
+            groupBox3.Location = new Point(39, 341);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(939, 130);
+            groupBox3.Size = new Size(1021, 130);
             groupBox3.TabIndex = 74;
             groupBox3.TabStop = false;
             groupBox3.Text = "Endereço";
@@ -540,9 +482,9 @@
             // 
             groupBox4.Controls.Add(label9);
             groupBox4.Controls.Add(textBox10);
-            groupBox4.Location = new Point(55, 520);
+            groupBox4.Location = new Point(39, 492);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(939, 139);
+            groupBox4.Size = new Size(1021, 130);
             groupBox4.TabIndex = 75;
             groupBox4.TabStop = false;
             groupBox4.Text = "Acadêmico";
@@ -553,13 +495,9 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
-            ClientSize = new Size(1530, 1025);
+            ClientSize = new Size(1209, 861);
             Controls.Add(groupBox1);
-            Controls.Add(panel3);
             Controls.Add(panel2);
-            Controls.Add(button1);
-            Controls.Add(button2);
-            Controls.Add(button3);
             FormBorderStyle = FormBorderStyle.None;
             Name = "CadastroEstudantes";
             StartPosition = FormStartPosition.CenterScreen;
@@ -569,9 +507,6 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
@@ -588,11 +523,6 @@
         private PictureBox pictureBox2;
         private Label label1;
         private PictureBox pictureBox1;
-        private Panel panel3;
-        private Label label11;
-        private PictureBox pictureBox4;
-        private Label label12;
-        private ComboBox comboBox2;
         private GroupBox groupBox1;
         private Label label8;
         private TextBox textBox7;
